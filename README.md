@@ -67,10 +67,10 @@ The application currently includes **26 passing automated tests** covering authe
 MAG PriceWatch is deployed on Railway.
 
 **Live Demo:**  
-`ADD_YOUR_RAILWAY_URL_HERE`
+https://price-tracker-saas-mag-price-watch.up.railway.app/
 
 **API Documentation:**  
-`ADD_YOUR_RAILWAY_URL_HERE/docs`
+https://price-tracker-saas-mag-price-watch.up.railway.app/docs
 
 **Repository:**  
 https://github.com/magliarozach-phntm/price-tracker-saas
