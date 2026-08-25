@@ -48,6 +48,7 @@ The project began as a simple Python price-alert exercise and has evolved into a
 * Pydantic
 * Jinja2
 * BeautifulSoup
+* Docker (working)
 * Requests
 * APScheduler
 * Pytest
@@ -57,6 +58,7 @@ The project began as a simple Python price-alert exercise and has evolved into a
 * Uvicorn
 * Railway
 * Git & GitHub
+* Linux
 
 ### Testing
 
