@@ -1,319 +1,138 @@
-# Hi, I'm Zach 👋
+# Hi, I'm Zach Magliaro 👋
 
-TS/SCI-cleared U.S. Air Force ISR professional transitioning into **Software Engineering, Backend Development, Cloud Engineering, and Automation**.
+### TS/SCI-Cleared | Backend Software Engineering | Sensor & Tracking Systems | Python | FastAPI
 
-I'm currently focused on building production-style Python applications that go beyond tutorials — complete with authentication, relational databases, REST APIs, automated testing, background services, cloud deployment, and production debugging.
+I'm an active-duty U.S. Air Force **MQ-9 Sensor Operator** building production-style software at the intersection of **backend engineering, real-time systems, automation, and defense technology**.
 
-My background operating mission-critical ISR systems has shaped the way I approach software: reliability, structured problem-solving, attention to detail, and building systems that work outside of the development environment.
-
-## 🚀 Current Projects
-
-### MAG PriceWatch — E-Commerce Price Tracking SaaS
-
-A full-stack, multi-user price tracking SaaS application built with FastAPI and deployed to the cloud.
-
-MAG PriceWatch allows users to create accounts, manage tracked products, set target prices, monitor price and stock changes, maintain historical pricing data, and receive automated email notifications.
-
-The project began as a simple Python price-alert exercise and has evolved into a production-deployed application with a modular service architecture.
-
-### Key Features
-
-* User registration and authentication
-* Secure password hashing and session management
-* User-specific product ownership
-* Product creation, editing, and deletion
-* Manual and automated product checks
-* Target-price monitoring
-* Stock availability tracking
-* Historical price data
-* Product statistics and analytics
-* Automated price alerts
-* Back-in-stock email notifications
-* Background scheduling with APScheduler
-* User timezone configuration
-* Database migrations with Alembic
-* Custom 404 and 500 error handling
-* Production HTTPS configuration
-* Automated testing
-* Modular retailer scraper architecture
-* Versioned REST API
-
-### Tech Stack
-
-* Python
-* FastAPI
-* PostgreSQL
-* SQLAlchemy 2
-* Alembic
-* Pydantic
-* Jinja2
-* BeautifulSoup
-* Docker (working)
-* Requests
-* APScheduler
-* Pytest
-* HTML / CSS / JavaScript
-* Bootstrap
-* SMTP
-* Uvicorn
-* Railway
-* Git & GitHub
-* Linux
-
-### Testing
-
-The application currently includes **26 passing automated tests** covering authentication, product functionality, validation, and tracking behavior.
-
-### Live Application
-
-MAG PriceWatch is deployed on Railway.
-
-**Live Demo:**  
-https://price-tracker-saas-mag-price-watch.up.railway.app/
-
-**API Documentation:**  
-https://price-tracker-saas-mag-price-watch.up.railway.app/docs
-
-**Repository:**  
-https://github.com/magliarozach-phntm/price-tracker-saas
+My operational background is in ISR, sensor systems, mission planning, and time-critical troubleshooting. My software work focuses on translating that systems mindset into reliable applications using Python, FastAPI, PostgreSQL, Docker, automated testing, and modern web technologies.
 
 ---
 
-## 💻 Technical Skills
+## 🚀 Featured Projects
 
-### Languages
+### 🎯 [Sensor Track System](https://github.com/magliarozach-phntm/sensor-track-system)
 
-* Python
-* SQL
-* HTML
-* CSS
-* JavaScript fundamentals
+A real-time multi-sensor tracking and visualization platform inspired by operational ISR workflows.
 
-### Backend Development
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · Alembic · WebSockets · React · TypeScript · Vite · Leaflet · Recharts · Docker · GitHub Actions · Pytest
 
-* FastAPI
-* REST API development
-* Server-side rendering with Jinja2
-* Authentication & session management
-* Application routing
-* Form handling & validation
-* Background task architecture
-* Error handling
-* Web scraping
-* Email automation
+Key capabilities:
 
-### Databases
+- Multi-sensor observation ingestion and track association
+- System-owned track identities independent of sensor track IDs
+- Track prediction, reacquisition, quality scoring, and source provenance
+- ACTIVE / STALE / DROPPED track lifecycle logic
+- Smoothed state estimation including circular heading handling
+- Real-time WebSocket updates to an operator dashboard
+- Interactive map, track trails, filtering, search, and historical charts
+- PostgreSQL persistence with Alembic migrations
+- Docker Compose deployment with health/readiness checks
+- Structured application logging
+- GitHub Actions CI
+- **63 passing automated tests**
 
-* PostgreSQL
-* SQLAlchemy ORM
-* Alembic database migrations
-* SQLite
-* Relational data modeling
-* Querying and data persistence
-
-### Testing
-
-* Pytest
-* FastAPI TestClient
-* Test fixtures
-* Isolated test databases
-* Authentication testing
-* API and application testing
-
-### Automation
-
-* Python scripting
-* APScheduler
-* Email automation
-* API integrations
-* Web scraping
-* Scheduled background processes
-* Data-processing workflows
-
-### APIs & Integrations
-
-Experience building projects using REST APIs and third-party services for:
-
-* E-commerce data
-* Flight data
-* Financial market data
-* News
-* Spotify
-* Email
-* SMS / messaging
-* Google Sheets
-* Public data APIs
-
-### Development Tools
-
-* Git
-* GitHub
-* PyCharm
-* VS Code
-* PowerShell
-* Virtual environments
-* Environment variables
-* Git branching & merging
-* Dependency management
-
-### Deployment & Infrastructure
-
-* Railway
-* Render
-* PostgreSQL cloud deployment
-* Uvicorn
-* Environment-based configuration
-* Database migrations
-* Production debugging
-* HTTPS / reverse-proxy configuration
-
-### Currently Expanding
-
-* Linux
-* Docker
-* Cloud infrastructure
-* CI/CD
-* DevOps
-* Advanced SQL
-* System design
-* AI/ML development
-* Production monitoring & observability
+> Built entirely with synthetic sensor data. No classified or operational data is used.
 
 ---
 
-## 🛠️ What I'm Building Toward
+### 📈 [MAG PriceWatch](https://github.com/magliarozach-phntm/price-tracker-saas)
 
-I'm intentionally developing projects that move beyond standalone Python scripts.
+A deployed full-stack e-commerce price monitoring SaaS application.
 
-My current focus is understanding the complete software lifecycle:
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Playwright · APScheduler · Jinja2 · Pytest · Railway
 
-**Design → Build → Test → Deploy → Debug → Improve**
+Highlights:
 
-I'm especially interested in backend systems that combine:
+- User registration, authentication, and protected routes
+- Per-user product tracking and target-price configuration
+- Playwright-powered browser automation for JavaScript-rendered retailer pages
+- Price and stock monitoring with historical persistence
+- Background scheduling and alert logic
+- Modular retailer-dispatch architecture
+- Production PostgreSQL database and migrations
+- **30 passing automated tests**
 
-* Python
-* APIs
-* Databases
-* Automation
-* Cloud infrastructure
-* Data
-* AI
-
-Rather than only demonstrating that an application works locally, my goal is to understand what it takes to build software that operates reliably in a production environment.
-
----
-
-## 🎯 Career Goals
-
-My goal is to combine my operational experience in **ISR, aviation, intelligence, and mission-critical systems** with modern software engineering.
-
-I'm building toward opportunities in:
-
-* Software Engineering
-* Backend Engineering
-* Python Development
-* Cloud Engineering
-* DevOps
-* Automation Engineering
-* AI / ML Engineering
-* Defense & Aerospace Software
-* Clearance-Required Technical Roles
-
-I'm particularly interested in environments where software, cloud infrastructure, automation, AI, and real-world operational systems intersect.
+**Live App:** [MAG PriceWatch](https://price-tracker-saas-mag-price-watch.up.railway.app/)  
+**API Docs:** [Swagger / OpenAPI](https://price-tracker-saas-mag-price-watch.up.railway.app/docs)
 
 ---
 
-## ✈️ Professional Background
+### 🧮 [Bulk Quote Calculator](https://github.com/magliarozach-phntm/bulk_quote_calculator)
 
-Before transitioning into software engineering, my professional experience has centered on aviation and Intelligence, Surveillance, and Reconnaissance (ISR).
+A modular Windows desktop application for Excel-based landed-cost and quoting automation.
 
-### U.S. Air Force
+**Stack:** Python · Tkinter · openpyxl · JSON · Pytest · PyInstaller
 
-* Active Duty U.S. Air Force
-* TS/SCI Security Clearance
-* MQ-9 Reaper Sensor Operator
-* ISR operations
-* Mission-critical system operations
-* 800+ MQ-9 flight hours
-* Two Aerial Achievement Medals
-* Initial Qualification Training Top Sensor Operator
-* Military Training Honor Graduate
+Highlights:
 
-Working in ISR has required operating complex systems in high-responsibility environments where situational awareness, technical proficiency, communication, and disciplined decision-making are critical.
-
-I'm now applying that same mindset to software engineering.
-
-### Aviation
-
-* FAA Part 107 Remote Pilot
-* Professional drone operations
-* Aerial imaging
-* Real estate photography
-* Cinematic aerial video
-* Inspection and survey operations
-
-### Entrepreneurship
-
-Co-owner of **Horizons Aviation & Photography**, providing professional aerial imaging and drone services.
-
-Running a small business has also given me practical experience with client relationships, project management, marketing, operations, and delivering technical services to real customers.
+- Excel import/export workflow
+- Defensive row validation with multi-error reporting
+- Configurable pricing rules separated from application logic
+- Results and error workbook generation
+- Unit and integration testing
+- Standalone Windows executable packaging
 
 ---
 
-## 📚 Software Development Journey
+## 🛠️ Technical Stack
 
-My transition into software engineering has been built around hands-on development.
+**Languages**  
+Python · SQL · TypeScript · JavaScript · HTML · CSS
 
-I've worked through projects involving:
+**Backend & APIs**  
+FastAPI · Flask · REST APIs · WebSockets · Pydantic · Jinja2 · Uvicorn
 
-* Object-oriented programming
-* API development
-* Flask
-* FastAPI
-* SQL databases
-* PostgreSQL
-* Web scraping
-* Authentication
-* Automation
-* Data processing
-* Email and messaging integrations
-* Cloud deployment
-* Testing
-* Git workflows
+**Databases**  
+PostgreSQL · SQLite · SQLAlchemy · Alembic · relational data modeling · SQL querying
 
-Rather than publishing every tutorial exercise, I'm focused on turning selected projects into polished applications that demonstrate progressively stronger software engineering skills.
+**Testing & Quality**  
+Pytest · FastAPI TestClient · integration testing · isolated test databases · GitHub Actions CI
 
-MAG PriceWatch is the first major example of that approach.
+**Infrastructure & Tooling**  
+Docker · Docker Compose · Linux · Git · GitHub · Railway · Render · VS Code · PowerShell
+
+**Automation**  
+Playwright · APScheduler · BeautifulSoup · Requests · SMTP · Excel automation · API integrations
+
+**Frontend / Visualization**  
+React · TypeScript · Vite · Leaflet · Recharts
 
 ---
 
-## 🔭 What's Next
+## ✈️ Defense & Aviation Background
 
-Current priorities include:
+- Active-duty U.S. Air Force
+- **Active TS/SCI security clearance**
+- MQ-9 Reaper Sensor Operator
+- 846+ operational hours across 149 ISR missions
+- Mission-system troubleshooting and sensor operations
+- FalconView and DCGS experience
+- Technical and procedural training leadership
+- 2× Aerial Achievement Medal
+- IQT Top Sensor Operator
+- FAA Part 107 Remote Pilot
 
-* Improving production reliability of MAG PriceWatch
-* Expanding retailer integrations
-* Increasing automated test coverage
-* Dockerizing applications
-* Building CI/CD workflows
-* Deepening Linux knowledge
-* Expanding PostgreSQL and SQL skills
-* Building cloud-native applications
-* Developing additional production-grade backend projects
-* Expanding into AI-enabled software systems
-
----
-
-## 📫 Connect With Me
-
-I'm interested in connecting with developers, engineers, veterans in technology, and teams working in software, cloud, defense, aerospace, automation, and AI.
-
-**LinkedIn:**  
-https://linkedin.com/in/zacharymagliaro
-
-**GitHub:**  
-https://github.com/magliarozach-phntm
+That background drives how I approach software: **understand the system, preserve reliability, validate assumptions, troubleshoot methodically, and build for the operator who depends on it.**
 
 ---
 
-### Always
+## 📚 Current Engineering Focus
+
+I'm continuing to deepen my experience in:
+
+- Backend and distributed-system design
+- Real-time data pipelines and sensor tracking
+- PostgreSQL and database architecture
+- Docker and containerized development
+- CI/CD and software delivery
+- Linux and cloud infrastructure
+- Automated testing and observability
+- Defense and aerospace software systems
+
+My goal is to combine hands-on software engineering with operational experience in **ISR, UAS, sensors, and mission-critical systems**.
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://linkedin.com/in/zacharymagliaro) · [GitHub](https://github.com/magliarozach-phntm)
