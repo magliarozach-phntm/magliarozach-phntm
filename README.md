@@ -31,6 +31,8 @@ Key capabilities:
 - GitHub Actions CI
 - **63 passing automated tests**
 
+**Live App**[Sensor Track System](https://sensor-track-system-production.up.railway.app/dashboard/)
+
 > Built entirely with synthetic sensor data. No classified or operational data is used.
 
 ---
